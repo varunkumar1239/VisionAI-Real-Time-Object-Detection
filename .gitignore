@@ -1,0 +1,17 @@
+
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+runs/
+*.spec
+*.mp4
+*.csv
+camera_test.py
+object_detection.py
+test_yolo.py
+yolo26n.pt
+.vscode/
+.idea/
+.DS_Store
