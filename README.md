@@ -198,9 +198,11 @@ python gui.py
 
 
 
-Screenshots of the VisionAI application will be added here.
+\### Main Interface
 
 
+
+!\[VisionAI Main Interface](screenshots/main-interface.png)
 
 \## Future Enhancements
 
