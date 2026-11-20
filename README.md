@@ -194,15 +194,11 @@ python gui.py
 
 
 
-\## Application Screenshots
+## Application Screenshots
 
+### Main Interface
 
-
-\### Main Interface
-
-
-
-!\[VisionAI Main Interface](screenshots/main-interface.png)
+![VisionAI Main Interface](screenshots/main-interface.png)
 
 \## Future Enhancements
 
