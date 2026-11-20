@@ -175,6 +175,25 @@ python gui.py
 ```
 
 
+## System Architecture
+
+The VisionAI system follows this architecture:
+
+```mermaid
+flowchart TD
+    A[Webcam Input] --> B[OpenCV Frame Capture]
+    B --> C[YOLOv8n Object Detection]
+    C --> D[ByteTrack Object Tracking]
+    D --> E[CustomTkinter GUI]
+
+    E --> F[Object Counts]
+    E --> G[Confidence Scores]
+    E --> H[Detection History]
+    E --> I[Video Recording]
+    E --> J[Screenshot Capture]
+    E --> K[CSV Report Export]
+```
+
 
 \## How It Works
 
